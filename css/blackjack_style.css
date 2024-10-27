@@ -41,7 +41,34 @@ header h1 {
     background-color: white; /* Sets the background color to white */
     color: #a28c40; /* Sets the text color to a specific color */
 }
-
+.dropdown-item {
+    font-family: 'Roboto'; /* Font family */
+    font-size: 18px; /* Font size */
+    color: #000000; /* Text color */
+    padding-left: 10px; /* Spacing */
+    transition: background-color 0.2s; /* Transition effect */
+    cursor: pointer; /* Set the mouse pointer to pointer */
+}
+.dropdown-item:hover {
+    font-size: 19px; /* Font size */
+    font-weight: bold; /* Font weight */
+    background-color: #d9d9d9; /* Mouse hover color */
+}
+#item1:hover, #item5:hover {
+    color: white;
+}
+#item2:hover, #item6:hover {
+    color: black;
+}
+#item3:hover {
+    color: green;
+}
+#item4:hover {
+    color: #870000;
+}
+#item7:hover {
+    color: #a28c40;
+}
 
 @media (max-height: 945px) {
     header h1 {
