@@ -220,25 +220,25 @@ function printCard(element, card, replace = false, showBack = false) {
     
     if (blackCards) {
         if (smallScreen.matches) {
-            back = `<img src="img/png_black_gold/card_back.png" alt="card back" style="width:125px; height:180px;" />`; // Sets the back of the card for small screens
-            imagePath = `img/png_black_gold/${card.value}_of_${card.suit}.png`; // Sets the image path for small screens
+            back = `<img src="https://im-lemos.github.io/BlackJack25/img/png_black_gold/card_back.png" alt="card back" style="width:125px; height:180px;" />`; // Sets the back of the card for small screens
+            imagePath = `https://im-lemos.github.io/BlackJack25/img/png_black_gold/${card.value}_of_${card.suit}.png`; // Sets the image path for small screens
             imgTag = `<img src="${imagePath}" alt="${card.value} of ${card.suit}" style="width:125px; height:180px;" />`; // Sets the image tag for small screens
         }
         else if (mediumScreen.matches) {
-            back = `<img src="img/png_black_gold/card_back.png" alt="card back" style="width:174px; height:250px;" />`; // Sets the back of the card for medium screens 
-            imagePath = `img/png_black_gold/${card.value}_of_${card.suit}.png`; // Sets the image path for medium screens
+            back = `<img src="https://im-lemos.github.io/BlackJack25/img/png_black_gold/card_back.png" alt="card back" style="width:174px; height:250px;" />`; // Sets the back of the card for medium screens 
+            imagePath = `https://im-lemos.github.io/BlackJack25/img/png_black_gold/${card.value}_of_${card.suit}.png`; // Sets the image path for medium screens
             imgTag = `<img src="${imagePath}" alt="${card.value} of ${card.suit}" style="width:174px; height:250px;" />`; // Sets the image tag for medium screens
         }
     }
     else {
         if (smallScreen.matches) {
-            back = `<img src="img/png/card_back.png" alt="card back" style="width:125px; height:180px;" />`; // Sets the back of the card for small screens
-            imagePath = `img/png/${card.value}_of_${card.suit}.png`; // Sets the image path for small screens
+            back = `<img src="https://im-lemos.github.io/BlackJack25/img/png/card_back.png" alt="card back" style="width:125px; height:180px;" />`; // Sets the back of the card for small screens
+            imagePath = `https://im-lemos.github.io/BlackJack25/img/png/${card.value}_of_${card.suit}.png`; // Sets the image path for small screens
             imgTag = `<img src="${imagePath}" alt="${card.value} of ${card.suit}" style="width:125px; height:180px;" />`; // Sets the image tag for small screens
         }
         else if (mediumScreen.matches) {
-            back = `<img src="img/png/card_back.png" alt="card back" style="width:174px; height:250px;" />`; // Sets the back of the card for medium screens
-            imagePath = `img/png/${card.value}_of_${card.suit}.png`; // Sets the image path for medium screens
+            back = `<img src="https://im-lemos.github.io/BlackJack25/img/png/card_back.png" alt="card back" style="width:174px; height:250px;" />`; // Sets the back of the card for medium screens
+            imagePath = `https://im-lemos.github.io/BlackJack25/img/png/${card.value}_of_${card.suit}.png`; // Sets the image path for medium screens
             imgTag = `<img src="${imagePath}" alt="${card.value} of ${card.suit}" style="width:174px; height:250px;" />`; // Sets the image tag for medium screens
         }
     }
