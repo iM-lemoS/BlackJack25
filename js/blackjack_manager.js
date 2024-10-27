@@ -276,7 +276,7 @@ function hoverEffect(id, backgroundColor1, color1, backgroundColor2, color2) {
  * Generic function to change the background of the game.
  */
 function mudarFundo(fundo, corTitulo, corBotaoBackground, corBotaoTexto, hoverParams) {
-    document.body.style.backgroundImage = `url(../img/background/${fundo}.png)`; // Defines the background of the game
+    document.body.style.backgroundImage = `url(https://im-lemos.github.io/BlackJack25/img/background/${fundo}.png)`; // Defines the background of the game
 
     document.getElementById('dealer-title').style.color = corTitulo; // Defines the color of the dealer's title
     document.getElementById('player-title').style.color = corTitulo; // Defines the color of the player's title
