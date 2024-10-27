@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/background/GOLD.png'); /* Background image */
+    background-image: url('https://im-lemos.github.io/BlackJack25/img/background/GOLD.png'); /* Background image */
     background-size: cover; /* Adjusts the background image to cover the entire body */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
