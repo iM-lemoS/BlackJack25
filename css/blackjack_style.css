@@ -1,0 +1,108 @@
+body {
+    background-image: url('../img/background/GOLD.png'); /* Background image */
+    background-size: cover; /* Adjusts the background image to cover the entire body */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    height: 100vh; /* Sets the height of the body to 100% of the viewport height */
+    margin:0; /* Removes any margin around the body */
+}
+header h1 {
+    font-family: 'Spectral'; /* Sets the font family to 'Spectral' */
+    text-align: center ; /* Centers the text */
+    font-weight: bolder; /* Sets the font weight to bold */
+    color:white; /* Sets the text color to white */
+}
+#dealer-title, #player-title{
+    text-align: center ; /* Centers the text */
+    font-weight:bold; /* Sets the font weight to bold */
+    color: white; /* Sets the text color to white */
+}
+#dealer, #player{
+    display: flex; /* Displays the elements as flex containers */
+    justify-self: center; /* Centers the elements horizontally */
+}
+#debug-title{
+    text-align: center ; /* Centers the text */
+    font-weight:normal; /* Sets the font weight to normal */
+    color: white; /* Sets the text color to white */
+}   
+#sec_debug{
+    display: none; /* Displays the element if "block" and dont display if "none" */
+}
+.botoes{
+    position: relative; /* Positions the element relative to its normal position */
+}
+.btn {
+    font-weight: bold; /* Sets the font weight to bold */
+    background-color: black; /* Sets the background color to black */
+    color: #a28c40; /* Sets the text color to a specific color */
+}
+.btn:hover{
+    background-color: white; /* Sets the background color to white */
+    color: #a28c40; /* Sets the text color to a specific color */
+}
+
+
+@media (max-height: 945px) {
+    header h1 {
+        font-size: 60px;
+        padding-top: 55px;
+        padding-right: 25px;
+    }
+    #dealer-title, #player-title{
+        font-size: 25px;
+        margin-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+    }
+    #dealer, #player{
+        padding-right: 20px; 
+        gap: 10px; /* Adds a gap between the elements */
+    }
+    #debug-title{
+        font-size: 35px;
+    }   
+    #sec_debug{
+        padding-top: 100px;
+    }
+    .botoes{
+        margin-left: 475px;
+        padding-top: 70px;
+    }
+    #togle-button1{
+        padding-left: 145px;
+    }
+}
+@media (max-height: 729.60px) {
+    body {
+        height: 102vh; /* Sets the height of the body to 102% of the viewport height */
+    }
+    header h1 {
+        font-size: 50px;
+        padding-top: 40px;
+        padding-right: 25px;
+    }
+    #dealer-title, #player-title{
+        font-size: 25px;
+        margin-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+    }
+    #dealer, #player{
+        padding-right: 20px;
+        gap: 10px; /* Adds a gap between the elements */
+    }
+    #debug-title{
+        font-size: 35px;
+    }   
+    #sec_debug{
+        padding-top: 150px;
+    }
+    .botoes{
+        margin-left: 475px;
+        padding-top: 25px;
+    }
+    #togle-button1{
+        padding-left: 30px;
+    }
+}
