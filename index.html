@@ -21,6 +21,9 @@
   <!-- Link to custom stylesheet for additional styles specific to the Blackjack game -->
   <link rel="stylesheet" href="css/blackjack_style.css">
 
+  <!-- Google Fonts CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
   <!-- Title of the webpage, displayed in the browser tab -->
   <title>Blackjack</title>
 </head>
@@ -56,8 +59,8 @@
             Cards
           </button>
           <ul class="dropdown-menu">
-            <li><a onclick="cartasBrancas()">White</a></li>
-            <li><a onclick="cartasPretas()">Black</a></li>
+            <li><a id="item1" class="dropdown-item" onclick="cartasBrancas()">White</a></li>
+            <li><a id="item2" class="dropdown-item" onclick="cartasPretas()">Black</a></li>
           </ul>
         </div>
 
@@ -67,11 +70,11 @@
             Background
           </button>
           <ul class="dropdown-menu">
-            <li><a onclick="fundoVerde()">Green</a></li>
-            <li><a onclick="fundoVermelho()">Red</a></li>
-            <li><a onclick="fundoBranco()">White</a></li>
-            <li><a onclick="fundoPreto()">Black</a></li>
-            <li><a onclick="fundoDourado()">Gold</a></li>
+            <li><a id="item3" class="dropdown-item" onclick="fundoVerde()">Green</a></li>
+            <li><a id="item4" class="dropdown-item" onclick="fundoVermelho()">Red</a></li>
+            <li><a id="item5" class="dropdown-item" onclick="fundoBranco()">White</a></li>
+            <li><a id="item6" class="dropdown-item" onclick="fundoPreto()">Black</a></li>
+            <li><a id="item7" class="dropdown-item" onclick="fundoDourado()">Gold</a></li>
           </ul>
         </div>
       </div>
